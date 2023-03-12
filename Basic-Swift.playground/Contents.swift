@@ -95,4 +95,19 @@ let implicitString: String = assumedData // No need for exclamation point
 
 
 
-// MARK: 
+// MARK: ERROR HANDLING
+
+func canThrowAnError() throws {}
+
+do { try canThrowAnError() } catch { }
+
+
+
+
+// MARK: ASSERTIONS AND PRECONDITIONS
+// Assertions checked only in debug mode unlike preconditions which are checked both in debug and product.
+
+let age = -3
+assert(age >= 0, "A person's age can't be less than zero.")
+
+precondition(true, "some error")
