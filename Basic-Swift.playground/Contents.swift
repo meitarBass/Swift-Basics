@@ -82,3 +82,17 @@ if let _ = responseCode {
 if let responseCode {
     print("The code is \(responseCode)")
 }
+
+
+// MARK: IMPLICITY UNRWAPPED OPTIONAL
+
+let optionalData: String? = "Optional Data."
+let forcedString: String = optionalData!
+
+let assumedData: String! = "here's some data"
+let implicitString: String = assumedData // No need for exclamation point
+
+
+
+
+// MARK: 
