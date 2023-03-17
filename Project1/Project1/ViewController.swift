@@ -5,6 +5,20 @@
 //  Created by Meitar Basson on 13/03/2023.
 //
 
+/* MARK:
+    CONCEPTS LEARNED WHILE CREATING THIS PROJECT -
+        * Table views
+        * Image views
+        * App bundles
+        * FileManager
+        * Typecasting
+        * View controllers
+        * Storyboard
+        * Outlets
+        * Auto layout
+        * UIImage
+ */
+
 import UIKit
 
 class ViewController: UITableViewController {
